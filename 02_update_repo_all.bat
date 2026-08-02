@@ -10,7 +10,9 @@ echo [OK] All changes staged.
 echo.
 
 :: Ask for commit message
-set /p msg="Enter a brief commit message (e.g., Updated README or Added new lab): "
+echo set /p msg="Enter a brief commit message (e.g., Updated README or Added new lab): "
+set "msg=..."Commit..."
+
 
 :: Step 2: Commit changes
 git commit -m "%msg%"
