@@ -1,0 +1,20 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# VS Code directory settings (except project workspace settings if you share them)
+.vscode/*.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Environment variables & secrets
+.env
